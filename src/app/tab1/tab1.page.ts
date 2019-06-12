@@ -16,7 +16,6 @@ export class Tab1Page {
   
   async init(){
     this.data = await this.catossiserviceService.get();
-    console.log(this.data);
   }
 
 }
